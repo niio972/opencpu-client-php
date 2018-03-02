@@ -81,17 +81,17 @@ class ConstantClassDefinition {
     const OPENCPU_SESSION_FEATHER_FORMAT = 'feather';
 
     /**
-     * 	image/png grDevices::png format namespace
+     * image/png grDevices::png format namespace
      */
     const OPENCPU_SESSION_PNG_FORMAT = 'png';
 
     /**
-     * 	application/pdf grDevices::pdf format namespace
+     * application/pdf grDevices::pdf format namespace
      */
     const OPENCPU_SESSION_PDF_FORMAT = 'pdf';
 
     /**
-     * 	image/svg+xml grDevices::svg format namespace
+     * image/svg+xml grDevices::svg format namespace
      */
     const OPENCPU_SESSION_SVG_FORMAT = 'svg';
 }
