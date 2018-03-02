@@ -36,12 +36,12 @@ class ConstantClassDefinition {
     const OPENCPU_SESSION_JSON_FORMAT = 'json';
 
     /**
-     * text/plain  base::print format namespace
+     * text/plain base::print format namespace
      */
     const OPENCPU_SESSION_PRINT_FORMAT = 'print';
 
     /**
-     * text/csv	 utils::write.csv format namespace
+     * text/csv	utils::write.csv format namespace
      */
     const OPENCPU_SESSION_CSV_FORMAT = 'csv';
 
