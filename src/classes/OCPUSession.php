@@ -47,13 +47,13 @@ class OCPUSession {
 
     /**
      *
-     * @var type
+     * @var array
      */
     private $sessionObjects = array();
 
     /**
      *
-     * @var type
+     * @var array
      */
     private $sessionValues = null;
 
@@ -220,10 +220,10 @@ class OCPUSession {
 
     /**
      *
-     * @param string $openCPUUrlRessource
-     * @param string $httpMethod
-     * @param string $requests_options
-     * @return \GuzzleHttp\Psr7\Response
+     * @param string $openCPUUrlRessource opencpu server url
+     * @param string $httpMethod GET, POST method
+     * @param string $requests_options additionnal parameters
+     * @return \GuzzleHttp\Psr7\Response|null response from the server
      */
     public function openCPUSessionCall($openCPUUrlRessource, $httpMethod = ConstantClassDefinition::OPENCPU_SERVER_GET_METHOD, $requests_options = []) {
         try {
