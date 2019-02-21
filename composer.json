@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "openSILEX\\openCPUClientPHP\\": "src/"
+            "openSILEX\\opencpuClientPHP\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "openSILEX\\openCPU-client-php\\": "tests/"
+            "openSILEX\\opencpuClientPHP\\": "tests/"
         }
     },
     "minimum-stability": "stable"
